@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICE5</title>
+    <style>
+
+
+.container
+
+
+{
+  background-color: #293462;
+  height: 600px;
+  width: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+.circle
+
+{
+
+    width: 200px;
+    height: 200px;
+    background-color: #FFF1C1;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.right-triangle
+
+{
+
+width: 0;
+height: 0;
+border-bottom: 200px solid #FE5F55;
+border-left: 200px solid transparent;
+border-right: 200px solid transparent;
+
+position: absolute;
+top: 59px;
+left: -59px;
+
+
+}
+
+
+.left-triangle
+
+
+{
+
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #FE5F55;
+    border-left: 100px solid transparent;
+    border-right:100px solid transparent;
+  
+    position: absolute;
+    top: 110px;
+    right: 60px;
+}
+
+    </style>
+</head>
+<body>
+    
+
+      <div class="container">
+       <div class="circle">
+          
+        <div class="right-triangle"></div>
+        <div class="left-triangle"></div>
+
+
+       </div>
+
+
+      </div>
+
+
+
+</body>
+</html>
