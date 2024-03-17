@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice6</title>
+    <style>
+
+
+
+
+
+
+.container
+
+{
+    background-color: #62306D;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.outer-circle
+
+{
+
+    width: 200px;
+    height: 200px;
+    background-color: #F7EC7D;
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.inner-circle
+{
+
+    width: 120px;
+    height: 120px;
+    background-color: #62306D;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+.top-left-square
+
+{
+    width: 100px;
+    height: 100px;
+    background-color: #E38F66;
+   
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+   <div class="outer-circle">
+     <div class="inner-circle"> </div>
+     <div class="top-left-square"></div>
+     
+   </div>
+</div>
+</body>
+</html>
